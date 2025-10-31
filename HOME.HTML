@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HOME</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    body {
+      font-family: "Montserrat", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#0a1e27] min-h-screen flex flex-col">
+  <header class="flex items-center justify-between px-10 py-6">
+    <h1 class="text-white font-bold text-lg select-none">WELCOME TO OUR WEBSITE</h1>
+    <nav class="flex space-x-8 text-white text-lg font-normal">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">Skills</a>
+      <a href="#" class="hover:underline">Portfolio</a>
+      <a href="#" class="hover:underline">Contact</a>
+      <a href="#" class="hover:underline">Log out</a>
+    </nav>
+  </header>
+  <main class="flex flex-1 justify-center items-center px-10 relative">
+    <div class="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-20">
+      <section class="flex flex-col text-white max-w-md md:max-w-lg">
+        <h2 class="font-semibold text-xl mb-1 select-none">Hello,We Are</h2>
+        <h1 class="font-extrabold text-4xl md:text-5xl mb-1 select-none leading-tight">
+          LORD OF THE PRINCE
+        </h1>
+        <h3 class="font-semibold text-xl mb-6 select-none">
+          And We Are a BSIT Student
+        </h3>
+        <p class="text-white mb-8 select-none">WE ARE BSIT STUDENTS</p>
+        <div class="flex space-x-6 mb-8">
+          <a
+            href="#"
+            aria-label="Instagram"
+            class="border border-cyan-400 rounded-full p-3 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
+            ><i class="fab fa-instagram fa-lg"></i
+          ></a>
+          <a
+            href="#"
+            aria-label="WhatsApp"
+            class="border border-cyan-400 rounded-full p-3 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
+            ><i class="fab fa-whatsapp fa-lg"></i
+          ></a>
+          <a
+            href="#"
+            aria-label="Mouse Icon"
+            class="border border-cyan-400 rounded-full p-3 text-cyan-400 hover:bg-cyan-400 hover:text-black transition cursor-pointer"
+            ><i class="fas fa-mouse-pointer fa-lg"></i
+          ></a>
+          <a
+            href="#"
+            aria-label="LinkedIn"
+            class="border border-cyan-400 rounded-full p-3 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
+            ><i class="fab fa-linkedin-in fa-lg"></i
+          ></a>
+        </div>
+        <button
+          class="bg-cyan-400 text-black font-semibold rounded-full px-8 py-3 w-max shadow-[0_0_20px_#0ff] hover:shadow-[0_0_30px_#0ff] transition select-none"
+        >
+          More About Me
+        </button>
+      </section>
+      <section class="relative flex justify-center items-center">
+        <div class="rounded-full border-8 border-cyan-400 p-2 shadow-[0_0_30px_#0ff]">
+          <div
+            class="rounded-full bg-[#e6e6d9] w-72 h-72 flex justify-center items-center shadow-[0_0_40px_#0ff]"
+          >
+            <img
+              src="https://img.freepik.com/premium-vector/gamer-streamer-mascot-logo-vector-illustration_382438-609.jpg"
+              alt="Cartoon avatar of Riski Kurniawan with black hair and black shirt on light beige circular background with glowing cyan border"
+              class="rounded-full w-64 h-64 object-cover"
+              width="288"
+              height="288"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    <button
+      aria-label="Scroll to top"
+      class="absolute bottom-10 right-10 bg-cyan-400 p-3 rounded-md shadow-[0_0_10px_#0ff] hover:shadow-[0_0_15px_#0ff] transition"
+    >
+      <i class="fas fa-arrow-up text-black"></i>
+    </button>
+  </main>
+</body>
+</html>
